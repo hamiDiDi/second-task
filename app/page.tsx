@@ -6,12 +6,12 @@ import AllPosts from "./components/main-pages/all-posts";
 
 export default function Home() {
 	return (
-		<div className="flex flex-col w-full gap-8 items-center">
-			<div className="flex flex-col gap-[100px] w-full h-full max-w-7xl">
-				<NavBar></NavBar>
-				<Intro></Intro>
-				<RecentPosts></RecentPosts>
-				<AllPosts></AllPosts>
+		<div className="flex flex-col w-full px-4 gap-8 items-center">
+			<div className="flex flex-col py-2 gap-8 md:gap-[100px] w-full h-full max-w-7xl">
+				<NavBar />
+				<Intro />
+				<RecentPosts />
+				<AllPosts />
 			</div>
 		</div>
 	);
