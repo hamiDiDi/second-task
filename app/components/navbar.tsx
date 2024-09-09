@@ -14,8 +14,13 @@ function NavBar() {
         <div className="md:flex hidden justify-between bg-[#fff] px-8 ">
           <div className="flex gap-10 text-[#475467] flex-wrap">
             <div className="flex justify-center items-center text-[#101828]">
-           
-            <UntitledUIIcon />
+            <Image
+                className="min-w-[32px] min-h-[32px]"
+                src="/images/Logomark.png"
+                alt="Logo"
+                width={32}
+                height={32}
+              />
               <div>Untitled UI</div>
             </div>
             <div className="md:flex justify-center items-center ">Home</div>
