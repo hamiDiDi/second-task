@@ -12,9 +12,9 @@ function Intro() {
 				</p>
 
 				<div className="flex mt-2 flex-col items-start justify-center gap-1">
-					<div className="flex md:flex-row w-full flex-col items-center md:gap-4 gap-1" >
+					<div className="flex gap-3 md:flex-row w-full flex-col items-center md:gap-4 " >
 						<input
-							className="md:px-[14px] text-center md:w-auto w-full px-0 py-3"
+							className="md:px-[14px] px-3 border rounded-lg md:w-auto md:min-w-[300px] w-full py-3"
 							type="email"
 							placeholder="Enter your email"
 						/>

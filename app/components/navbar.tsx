@@ -1,12 +1,12 @@
 import Image from "next/image";
-import UntitledUIIcon from "../../public/icons/untitledUIIcon"; // Correctly import the component
+import UntitledUIIcon from "../../public/icons/untitledUIIcon"; 
 import ThreeLines from "@/public/icons/threeLines";
 function NavBar() {
   return (
     <>
       <div className=" bg-[#fff]">
         <div className="flex md:hidden justify-between">
-          <div className="flex justify-center items-center text-[#101828]">
+          <div className="flex justify-center items-center ">
             <UntitledUIIcon />
           </div>
           <ThreeLines size={25}/>
@@ -14,8 +14,9 @@ function NavBar() {
         <div className="md:flex hidden justify-between bg-[#fff] px-8 ">
           <div className="flex gap-10 text-[#475467] flex-wrap">
             <div className="flex justify-center items-center text-[#101828]">
+           
+            <UntitledUIIcon />
               <div>Untitled UI</div>
-              <UntitledUIIcon />
             </div>
             <div className="md:flex justify-center items-center ">Home</div>
             <div className="flex gap-2 justify-center items-center">
@@ -48,7 +49,10 @@ function NavBar() {
             </div>
           </div>
         </div>
+        <hr className="mt-4"></hr>
+
       </div>
+      
     </>
   );
 }
